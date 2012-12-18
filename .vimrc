@@ -38,3 +38,7 @@ set gfn=Monospace\ 13           " forces gVim to use this font
 call pathogen#infect()          " initializes pathogen to manage plugins
 
 map <F2> :NERDTreeTabsToggle<CR>
+
+let @f='gg=G'
+set linebreak
+set wrap
